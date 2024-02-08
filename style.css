@@ -1,0 +1,24 @@
+    .nav-pseudo:not(:last-child)::after {
+      content: "";
+      display: inline-block;
+      width: 2px;
+      height: 11px;
+      margin: 0 8px;
+      background-color: #fcfcfc;
+    }
+    
+    #loginForm {
+      width: 250px;
+      max-width: 300%;
+    }
+
+    #loginForm form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .custom-list li:not(:last-child) {
+      border-bottom: 1px solid #ccc; /* Çizgi rengi ve kalınlığı */
+      padding-bottom: 5px; /* İstenilen çizgi boşluğu */
+      margin-bottom: 5px; /* İstenilen alt boşluk */
+  }
